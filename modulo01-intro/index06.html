@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso JavaScript</title>
+</head>
+<body>
+    
+    <script>
+        //operadores lógicos
+        // and, or, not
+
+        var sexo = 'M', idade = 25;
+
+        //and
+        if (sexo === 'M' && idade >= 18) {
+            console.log('OK, sexo masculino E maior de 18 anos');
+        }
+
+        //or
+        if (sexo === 'M' || idade >= 18) {
+            console.log('OK, sexo masculino OU maior de 18 anos');
+        }
+
+        //not - verifica a desigualdade
+        if (sexo != 'F') {
+            console.log('O sexo NÃO é F');
+        }
+
+        //armazenar o valor das condições em variaveis
+        var masculino;
+        if (sexo === 'M') {
+            masculino = true;
+        } else {
+            masculino = false;
+        }
+
+        //ou
+        // var masculino = sexo === 'M';
+
+        console.log(masculino);
+    </script>
+</body>
+</html>

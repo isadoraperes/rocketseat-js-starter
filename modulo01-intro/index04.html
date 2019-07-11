@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso JavaScript</title>
+</head>
+<body>
+    
+    <script>
+        //funções
+
+        function soma(number1, number2) {
+            var result = number1 + number2;
+            return result;
+        }
+        
+        var result = soma(1, 2);
+        console.log(result)
+
+        // diferença entre var e let
+        // escopo global: não há diferença, ou seja, a variavel pode ser manipulada em qualquer lugar do script
+        // escopo local: não há diferença, ou seja, só conseguimos manipular a variavel dentro do escopo da função
+        // escopo de bloco: há diferenças! o escopo de bloco é tudo aquilo que está declarado entre chaves {}. porém quando declaramos uma varivel com let nesse escopo ela é restrita, só funcionando no bloco que foi declarada. 
+        // entretanto se declararmos uma varivel com var no escopo de bloco, ela pode ser manipulada em outros trechos do script porque o escopo de bloco não existe para o var.
+    </script>
+</body>
+</html>
